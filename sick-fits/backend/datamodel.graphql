@@ -9,9 +9,9 @@ type Item {
   title: String!
   description: String!
   image: String
-  largeImgae: String
+  largeImage: String
   price: Int!
-  createAt: DateTime!
-  updateAt: DateTime!
+  # createdAt: DateTime!
+  # updatedAt: DateTime!
   # user: User!
 }
