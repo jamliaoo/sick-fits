@@ -89,7 +89,7 @@ class CreateItem extends Component {
 
   createItem = async (e, createItemMutation) => {
     e.preventDefault();
-    if (this.state.imgae) {
+    if (this.state.image) {
       await this.uploadFile();
     }
     const res = await createItemMutation();

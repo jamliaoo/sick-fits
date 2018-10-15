@@ -1,10 +1,9 @@
-import Link from "next/link";
-import Items from "../components/Items";
+import Items from '../components/Items';
 
-const Home = () => {
+const Home = ({ page }) => {
   return (
     <div>
-      <Items />
+      <Items page={parseFloat(page) || 1} />
     </div>
   );
 };
