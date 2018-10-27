@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import styled, {
   ThemeProvider,
   InjectGlobal,
-  injectGlobal
 } from "styled-components";
 import Header from "./Header";
 import Meta from "./Meta";
