@@ -1,11 +1,20 @@
-import CreateItem from '../components/CreateItem';
+import styled from 'styled-components';
+import Signup from '../components/Signup';
 
-const Signup = () => {
+const Column = styled.div`
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+`;
+
+const SignupPage = () => {
   return (
-    <div>
-      <p>sign up!</p>
-    </div>
+    <Column>
+      <Signup />
+      <Signup />
+      <Signup />
+    </Column>
   );
 };
 
-export default Signup;
+export default SignupPage;
